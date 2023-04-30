@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 4
+names: ['metal', 'others', 'paper', 'plastic']
+
+roboflow:
+  workspace: yolov5-aympo
+  project: waste-detection-1zarq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov5-aympo/waste-detection-1zarq/dataset/2
